@@ -1,18 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, m, s, mx, res;
-int f[20];
-bool is[20];
-void dfs(int k, int ant, int val) {
-    if(ant == val) {
-        dfs(k + 1, 0, 
-    }
-    if(k > m) {
-        res = 1;
-        return ;
-    }
-    for(int i = 1; i <= n; i++) {
+int +) {
         if(is[i] == false) {
             if(ant + f[i] <= val) {
                 is[i] = true;
