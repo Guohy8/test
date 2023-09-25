@@ -6,7 +6,7 @@ int f[20];
 bool is[20];
 void dfs(int k, int ant, int val) {
     if(ant == val) {
-        dfs(k + 1, 0, val);
+        dfs(k + 1, 0, 
     }
     if(k > m) {
         res = 1;
